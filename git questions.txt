@@ -1,0 +1,5 @@
+Difference between git diff and git status
+git diff is specially aimed at comparisons, and it's very powerful at that:
+It can compare commits, branches, a single file across revisions or branches, etc. 
+On the other hand, git status is specifically for the status of the working tree.
+
