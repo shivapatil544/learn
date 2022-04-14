@@ -1,5 +1,38 @@
 Difference between git diff and git status
+
 git diff is specially aimed at comparisons, and it's very powerful at that:
 It can compare commits, branches, a single file across revisions or branches, etc. 
 On the other hand, git status is specifically for the status of the working tree.
+==============================================================================================
+
+Difference between git merge and git rebase
+
+rebase reapplies commits on top of another base branch, basically overrides the commits history, 
+whereas merge joins two or more development histories together and retains history completely same as it happened
+==============================================================================================
+
+
+how to fix broken commit in git
+
+git commit --amend
+==============================================================================================
+
+what happens if i delete .git folder ?
+
+Deleting the . git folder does not delete the other files in that folder which is part of the git repository. 
+However, the folder will no longer be under versioning control.
+==============================================================================================
+
+what is the use of staging area in git?
+
+staging helps you split up one large change into multiple commits
+staging helps in reviewing changes
+staging helps when a merge has conflicts
+staging helps you sneak in small changes
+==============================================================================================
+
+What is version control system (VCS) ?
+
+Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later.
+
 
