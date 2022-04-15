@@ -37,4 +37,4 @@ Version control is a system that records changes to a file or set of files over 
 
 
 what is git ls-tree ?
-git ls-tree is similare to ls in unix command ls it lists the working directory tree
+git ls-tree is similar to ls in unix command ls it lists the working directory tree
